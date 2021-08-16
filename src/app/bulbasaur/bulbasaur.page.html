@@ -33,13 +33,13 @@
   <h4>Tipo</h4>
 
   <ion-badge>
-  <ion-button *ngFor="let tipo of pokemon.tipos" [color]="tipo | lowercase"  >
+  <ion-button *ngFor="let tipo of listaPokemonFiltrada" [color]="tipo | lowercase"  >
     {{tipo}}
   </ion-button>
   </ion-badge>
 
   <ion-badge>
-  <ion-button *ngFor="let tipo of pokemon.tipos" [color]="tipo | lowercase"  >
+  <ion-button *ngFor="let tipo of listaPokemonFiltrada" [color]="tipo | lowercase"  >
     {{tipo}}
   </ion-button>
   </ion-badge>
