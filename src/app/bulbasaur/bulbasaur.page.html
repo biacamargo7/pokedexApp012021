@@ -1,0 +1,68 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Bulbasaur Nº001</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+   <ion-item *ngFor="let pokemon of listaPokemon" lines="full" class="ion-no-padding" routerLink="/bulbasaur">
+
+    <img [src]="pokemon.foto">
+
+<div class="versions">
+  <div class="row justify-content-start">
+    <div class="col-sm-4">
+      <h5>Altura</h5>
+      <p>0.7m</p>
+      <h5>Peso</h5>
+      <p>6.9kg</p>
+      <h5>Gênero</h5>
+      <p>
+        <ion-icon name="female-outline"></ion-icon>
+        <ion-icon name="male-outline"></ion-icon>
+      </p>
+
+      <h5>Categoria</h5>
+      <p>Semente</p>
+      <h5>Habilidades</h5>
+      <p>Overgrow</p>
+    </div>
+  </div>
+</div>
+
+  <h4>Tipo</h4>
+
+  <ion-badge>
+  <ion-button *ngFor="let tipo of pokemon.tipos" [color]="tipo | lowercase"  >
+    {{tipo}}
+  </ion-button>
+  </ion-badge>
+
+  <ion-badge>
+  <ion-button *ngFor="let tipo of pokemon.tipos" [color]="tipo | lowercase"  >
+    {{tipo}}
+  </ion-button>
+  </ion-badge>
+
+  <h4>Fraquezas</h4>
+
+  <ion-badge>
+    <ion-button *ngFor="let tipo of pokemon.tipos" [color]="tipo | lowercase"  >
+      {{tipo}}
+    </ion-button>
+    </ion-badge>
+
+    <ion-badge>
+      <ion-button *ngFor="let tipo of pokemon.tipos" [color]="tipo | lowercase"  >
+        {{tipo}}
+      </ion-button>
+      </ion-badge>
+
+      <ion-badge>
+        <ion-button *ngFor="let tipo of pokemon.tipos" [color]="tipo | lowercase"  >
+          {{tipo}}
+        </ion-button>
+        </ion-badge>
+
+   </ion-item>
+</ion-content>

@@ -1,0 +1,22 @@
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.versions {
+  background-color: #30a7d7;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.col-sm-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h5 {
+  color: beige;
+  margin-right: 5px;
+  font-size: 14px;
+}

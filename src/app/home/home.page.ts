@@ -21,7 +21,7 @@ export class HomePage {
       nome: 'Ivysaur',
       foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png',
       tipos: [
-        'Grass', 'Posion'
+        'Grass', 'Poison'
       ]
     },
     {
@@ -29,7 +29,7 @@ export class HomePage {
       nome: 'IVenusaur',
       foto: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png',
       tipos: [
-        'Grass', 'Posion'
+        'Grass', 'Poison'
       ]
     },
     {
